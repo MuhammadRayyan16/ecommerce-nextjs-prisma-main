@@ -3,6 +3,7 @@ import prisma from "@/utils/connection";
 import React from "react";
 
 
+
 const Products = async ({ searchParams }) => {
   let result;
   if (searchParams.cat) {
